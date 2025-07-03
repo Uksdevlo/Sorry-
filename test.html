@@ -4,63 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>I'm Sorry 💔</title>
-  <style>
-    body {
-      background: #f0eaea;
-      font-family: sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      text-align: center;
-    }
-    h1 {
-      font-size: 4rem;
-      color: #c0392b;
-      opacity: 0;
-      transform: scale(0.5);
-      animation: appear 1s forwards, pulse 1s 1s infinite;
-      letter-spacing: 0.5rem;
-    }
-    @keyframes appear {
-      to { opacity: 1; transform: scale(1); }
-    }
-    @keyframes pulse {
-      0%,100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-    }
-    .buttons {
-      margin-top: 2rem;
-      opacity: 0;
-      animation: showBtns 0.5s 2s forwards;
-    }
-    @keyframes showBtns {
-      to { opacity: 1;}
-    }
-    .btn {
-      background: #fff;
-      border: 2px solid #c0392b;
-      color: #c0392b;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      margin: 0 0.5rem;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.3s, color 0.3s;
-    }
-    .btn:hover {
-      background: #c0392b;
-      color: #fff;
-    }
-    .response {
-      margin-top: 2rem;
-      font-size: 1.25rem;
-      color: #333;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
